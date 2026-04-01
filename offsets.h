@@ -20,32 +20,18 @@ namespace decryption {
 
 namespace offsets
 {
-    // Base
-    inline constexpr uintptr_t g_world = 0x1895DE60;
 
-    // UWorld
+    inline constexpr uintptr_t g_world = 0x1895DE60;
     inline constexpr uintptr_t OwningGameInstance = 0x250;
     inline constexpr uintptr_t GameState = 0x1D8;
     inline constexpr uintptr_t PersistentLevel = 0x40;
     inline constexpr uintptr_t Levels = 0x1F0;
-
-    // UGameInstance
     inline constexpr uintptr_t LocalPlayers = 0x38;
-
-    // APlayerController
     inline constexpr uintptr_t AcknowledgedPawn = 0x358;
     inline constexpr uintptr_t PlayerCameraManager = 0x368;
-
-    // APawn
     inline constexpr uintptr_t PlayerState = 0x2D0;
-
-    // Actor
     inline constexpr uintptr_t RootComponent = 0x1B0;
-
-    // ACharacter
     inline constexpr uintptr_t Mesh = 0x330;
-
-    // USceneComponent
     inline constexpr uintptr_t RelativeLocation = 0x140;
     inline constexpr uintptr_t RelativeRotation = 0x158;
 }
